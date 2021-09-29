@@ -1,21 +1,17 @@
 import React from 'react';
 import { Image, ImageBackground, StyleSheet, Text, View } from 'react-native';
 import colors from './colors';
+import Items from './Items';
+import StyledButton from './StyledButton';
 
+// I implemented this screen by following this tutorial by Mosh 
+// https://www.youtube.com/watch?v=0-S5a0eXPoc
+// and modified to experiement some more.
 function WelcomeScreen(props) {
     return (
-        <ImageBackground style= {styles.background} source={require('../../assets/shop.webp')}>
+        <ImageBackground style= {styles.background} source={require('../../assets/viewImage.webp')}>
             <View style={styles.logoContainer}>
-                <Image style={styles.logo} source={require('../../assets/logo.png')}/>
-                <Text>For The Items You Do Not Need</Text>
-            </View>
-            <View style={styles.loginButton}>
-                <Text>
-                    See Our Products
-                </Text>
-            </View>
-            <View style={styles.registerButton}>
-                <Text>About Us</Text>
+                <Image style={styles.logo} source={require('../../assets/newlogo.jpg')}/>
             </View>
         </ImageBackground>
     );
@@ -36,7 +32,7 @@ const styles = StyleSheet.create({
     },
     logo:{
         width: 100,
-        height: 100,
+        height: 50,
 
     },
     registerButton: {
@@ -48,7 +44,7 @@ const styles = StyleSheet.create({
     },
     logoContainer: {
         position: "absolute",
-        top: 480,
+        top: 200,
         alignItems:'center'
     }, 
      
