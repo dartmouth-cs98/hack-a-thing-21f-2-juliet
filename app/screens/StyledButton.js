@@ -1,4 +1,4 @@
-// The code in this file is by Savin Vandim, and I modified just a little bit
+// The code in this file is by Savin Vadim, and I modified just a little bit
 // I found it super convinient to inject into my app. 
 // Full github repo: https://github.com/Savinvadim1312/TeslaClone
 import React from 'react';

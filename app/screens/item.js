@@ -4,9 +4,9 @@ import { StyleSheet, Dimensions } from 'react-native';
 import StyledButton from "./StyledButton";
 import WelcomeScreen from './WelcomeScreen';
 
-// the code in the file follows the same structure as that of Savin Vandim,
+// the code in the file follows the same structure as that of Savin Vadim,
 // I changed the code to incorporate my own dummy data
-// full repo by Savin Vandim https://github.com/Savinvadim1312/TeslaClone
+// full repo by Savin Vadim https://github.com/Savinvadim1312/TeslaClone
 const Item = (props) => {
 
   const { name, tagline, image } = props.item;

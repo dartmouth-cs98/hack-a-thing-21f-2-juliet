@@ -2,7 +2,7 @@ import React from 'react';
 import { Image, ImageBackground, StyleSheet, Text, View } from 'react-native';
 import colors from './colors';
 import Items from './Items';
-import StyledButton from './StyledButton';
+
 
 // I implemented this screen by following this tutorial by Mosh 
 // https://www.youtube.com/watch?v=0-S5a0eXPoc
