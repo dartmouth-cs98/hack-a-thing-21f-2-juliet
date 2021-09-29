@@ -6,13 +6,14 @@ import WelcomeScreen from './WelcomeScreen';
 
 // the code in the file follows the same structure as that of Savin Vadim,
 // I changed the code to incorporate my own dummy data
+// all the styling were adapted from Savin but i changed the concept from cars to any other items
 // full repo by Savin Vadim https://github.com/Savinvadim1312/TeslaClone
 const Item = (props) => {
 
   const { name, tagline, image } = props.item;
 
   return (
-    <View style={styles.carContainer}>
+    <View style={styles.itemContainer}>
       <ImageBackground
         source={image}
         style={styles.image}
@@ -49,7 +50,7 @@ const Item = (props) => {
 };
 
 const styles = StyleSheet.create({
-    carContainer: {
+    itemContainer: {
       width: '100%',
       height: Dimensions.get('window').height,
     },

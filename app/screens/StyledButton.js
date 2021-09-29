@@ -26,11 +26,11 @@ const StyledButton = (props) => {
 const styles = StyleSheet.create({
     container: {
       width: '100%',
-      padding: 10,
+      padding: 15,
     },
     button: {
-      height: 40,
-      borderRadius: 20,
+      height: 45,
+      borderRadius: 15,
       justifyContent: 'center',
       alignItems: 'center',
     },
