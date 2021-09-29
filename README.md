@@ -7,7 +7,11 @@ React Native. I followed two tutorials and attempted to merge their concepts int
 In this assignment, I attempted to build a simple and small shopping app using react native. The app has some items displayed for sale and their prices, and you can scroll over to see more items. The app also has a welcome page where you can find our logo, and navigate to see all productions.
 
 Include some screenshots.
-[How?](https://help.github.com/articles/about-readmes/#relative-links-and-image-paths-in-readme-files)
+![Simulator Screen Shot - iPhone 12 Pro - 2021-09-29 at 14 48 30](https://user-images.githubusercontent.com/63308269/135336474-9a4b9249-75fb-4828-a597-19ec03fe69b5.png)
+![Simulator Screen Shot - iPhone 12 Pro - 2021-09-29 at 15 08 59](https://user-images.githubusercontent.com/63308269/135336475-4dee0827-ee8a-41b9-af2a-bdfa430ccd13.png)
+![Simulator Screen Shot - iPhone 12 Pro - 2021-09-29 at 15 09 02](https://user-images.githubusercontent.com/63308269/135336476-ac5763e4-52a1-479f-82b3-3566cee4f4f0.png)
+![Simulator Screen Shot - iPhone 12 Pro - 2021-09-29 at 15 09 08](https://user-images.githubusercontent.com/63308269/135336478-b7c66dea-0fcf-4324-9a8e-1865897a5f93.png)
+
 
 ## What you learned and what worked.
 
